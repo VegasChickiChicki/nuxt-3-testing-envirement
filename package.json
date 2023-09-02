@@ -1,0 +1,20 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test:unit": "vitest --config vitest.config.mjs"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@vue/test-utils": "^2.4.1",
+    "happy-dom": "^10.11.2",
+    "nuxt": "^3.7.0",
+    "nuxt-vitest": "^0.10.4",
+    "vitest": "^0.33.0"
+  }
+}
