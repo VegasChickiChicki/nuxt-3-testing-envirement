@@ -1,5 +1,5 @@
 <template>
-  <button type="button">
+  <button type="button" @click="toggleState">
     base button
   </button>
 </template>
